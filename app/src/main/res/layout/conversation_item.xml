@@ -12,7 +12,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/dataContainer"
@@ -48,6 +49,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:text="Data"
+                android:textSize="14dp"
                 app:layout_constraintBottom_toBottomOf="@+id/messageStatus"
                 app:layout_constraintEnd_toStartOf="@+id/messageTiming"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -71,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="20dp"
-                android:textSize="18dp"
+                android:textSize="20dp"
                 android:textColor="@color/colorPrimary"
                 android:text="Name"
                 app:layout_constraintEnd_toStartOf="@+id/imageView5"

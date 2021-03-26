@@ -18,7 +18,8 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            app:titleTextColor="@color/submit_button_text_color"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -28,6 +29,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top"
         android:hint="@string/search_for_friends"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/participantsRecyclerView" />
 
@@ -40,7 +45,8 @@
         android:clickable="true"
         android:src="@drawable/ic_baseline_check_24"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/colorPrimary"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/participantsRecyclerView"

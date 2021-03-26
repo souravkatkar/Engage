@@ -37,6 +37,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="4dp"
             android:text="@={contact.nickname}"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
             app:layout_constraintStart_toEndOf="@+id/profile_image"
             app:layout_constraintTop_toTopOf="@+id/profile_image" />
 
@@ -46,6 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="@={contact.username}"
+            android:textSize="15dp"
             app:layout_constraintStart_toStartOf="@+id/nameText"
             app:layout_constraintTop_toBottomOf="@+id/nameText" />
 

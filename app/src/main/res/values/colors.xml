@@ -7,6 +7,8 @@
 
     <color name="secondarycolor">#d0d3d2</color>
 
+    <color name="toolbar_color_control_normal">#ffffff</color>
+
     <color name="submit_button_text_color">#ffffff</color>
     <color name="transparent">#00000000</color>
 
